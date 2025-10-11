@@ -1,0 +1,25 @@
+.container {
+    width: 25%;
+
+    padding: 26px;
+
+    border-radius: 8px;
+
+    
+
+    border: 1px solid var(--color-red);
+}
+
+.container h2 {
+    font-size: 18px;
+    font-weight: 600;
+
+    color: var(--color-white);
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: var(--color-white);
+}
