@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 0 120px;
+    
+    margin-top: 65px;
+
+    color: var(--color-white);
+}
+
+.title h2 {
+    text-align: center;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.paragraph {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paragraph p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paragraph p span {
+    color: var(--color-red);
+}
+
+.button {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

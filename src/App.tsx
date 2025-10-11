@@ -3,6 +3,7 @@ import { Videoo } from "./Components/Video"
 import { Destak } from "./Components/Destak"
 import { Auctions } from "./Components/Auctions"
 import { ForYou } from "./Components/ForYou"
+import { Life } from "./Components/Life"
 
 export function App() {
   return (
@@ -12,6 +13,7 @@ export function App() {
       <Destak/>
       <Auctions/>
       <ForYou/>
+      <Life/>
     </div>
   )
 }
