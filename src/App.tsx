@@ -1,7 +1,9 @@
+import { Main } from "./Components/Main"
+
 export function App() {
   return (
     <div>
-      <h1>ola</h1>
+      <Main/>
     </div>
   )
 }

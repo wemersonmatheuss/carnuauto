@@ -1,0 +1,14 @@
+.container button {
+    padding: 15px 60px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    background: var(--gradient-red);
+    color: var(--color-white);
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
