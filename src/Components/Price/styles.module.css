@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 0 120px;
+
+    margin-top: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTwo {
+    width: 50%;
+    height: auto;
+
+    background: var(--color-white);
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    margin-top: 23px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.price p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price p span {
+    color: var(--color-red);
+
+    text-decoration: line-through;
+}
+
+.price h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 18px;
+}
+
+.button p {
+    font-size: 16px;
+    font-weight: 500;
+}

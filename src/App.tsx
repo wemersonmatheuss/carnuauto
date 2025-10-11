@@ -5,6 +5,7 @@ import { Auctions } from "./Components/Auctions"
 import { ForYou } from "./Components/ForYou"
 import { Life } from "./Components/Life"
 import { AboutCarnu } from "./Components/AboutCarnu"
+import { Price } from "./Components/Price"
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <ForYou/>
       <Life/>
       <AboutCarnu/>
+      <Price/>
     </div>
   )
 }
