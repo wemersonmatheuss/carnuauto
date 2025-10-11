@@ -12,7 +12,7 @@ export function Footer() {
             <div className={styles.description}>
                 <p>Carnu Auto INC</p>
                 <p>Todos os direitos reservados.</p>
-                <a href="#">Desenvolvido e mantido por Wemerson Dev</a>
+                <a href="https://www.instagram.com/wemersonmth/" target="_blank" rel="noopener">Desenvolvido e mantido por Wemerson Dev</a>
             </div>
         </div>
     )

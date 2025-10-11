@@ -1,11 +1,16 @@
 import styles from "./styles.module.css"
 
+import { useScrollAnimation } from "../../useScrollAnimation"
+
+
 import { PointForYou } from "../Points/PointForYou"
 import { Button } from "../Button"
 
 export function ForYou() {
+    const { ref, isVisible } = useScrollAnimation()
+
     return (
-        <div className={styles.container}>
+        <div ref={ref} className={`${styles.container} ${isVisible ? styles.show : styles.hide}`}>
             <h2>Carnu Auto a se pou ou ki:</h2>
 
             <div className={styles.allPoints}>

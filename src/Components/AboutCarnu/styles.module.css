@@ -45,6 +45,23 @@
     justify-content: center;
 }
 
+.container {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: all 0.8s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hide {
+  opacity: 0;
+  transform: translateX(-80px);
+}
+
+
 @media screen and (max-width: 1301px) {
     .image img {
         width: 450px;

@@ -1,11 +1,15 @@
 import styles from "./styles.module.css"
 
+import { useScrollAnimation } from "../../useScrollAnimation"
+
 import person from "../../assets/person.png"
 import { Button } from "../Button"
 
 export function AboutPerson() {
+    const { ref, isVisible } = useScrollAnimation()
+
     return (
-        <div className={styles.container}>
+        <div ref={ref} className={`${styles.container} ${isVisible ? styles.show : styles.hide}`}>
             <div className={styles.description}>
                 <div className={styles.title}>
                     <h2>Non mwen se WOODDJERY</h2>

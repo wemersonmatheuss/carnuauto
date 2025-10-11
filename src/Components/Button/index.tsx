@@ -2,13 +2,15 @@ import type { ComponentProps } from "react"
 import styles from "./styles.module.css"
 
 type Props = ComponentProps<"button"> & {
-    name:string
+  name: string
 }
 
-export function Button({ name }:Props) {
-    return (
-        <div className={styles.container}>
-            <button type="button">{name}</button>
-        </div>
-    )
+export function Button({ name }: Props) {
+  return (
+    <div className={styles.container}>
+      <button type="button" className={styles.button}>
+        {name}
+      </button>
+    </div>
+  )
 }

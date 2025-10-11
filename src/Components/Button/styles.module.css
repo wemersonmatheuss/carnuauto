@@ -1,14 +1,43 @@
-.container button {
-    padding: 15px 60px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    font-size: 18px;
-    font-weight: 500;
+/* 🔘 estilo base do botão */
+.button {
+  padding: 15px 60px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-white);
+  background: var(--gradient-red, linear-gradient(90deg, #e50914, #b0060f));
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: pulse 1.8s infinite;
+}
 
-    background: var(--gradient-red);
-    color: var(--color-white);
+/* 💓 animação de pulsação */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(229, 9, 20, 0.6);
+  }
+  70% {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 15px rgba(229, 9, 20, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(229, 9, 20, 0);
+  }
+}
 
-    border: none;
-    border-radius: 8px;
-
-    cursor: pointer;
+/* 🔥 efeito quando passa o mouse */
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+  animation: none; /* pausa a pulsação no hover */
 }

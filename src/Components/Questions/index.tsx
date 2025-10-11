@@ -1,5 +1,8 @@
 import { useState } from "react"
 import styles from "./styles.module.css"
+
+import { useScrollAnimation } from "../../useScrollAnimation"
+
 import JogarIcon from "../../assets/svg/jogar.svg"
 
 const QUESTIONS = [
@@ -35,9 +38,10 @@ export function Questions() {
     function toggle(i: number) {
         setOpenIndex(openIndex === i ? null : i)
     }
+    const { ref, isVisible } = useScrollAnimation()
 
     return (
-        <div className={styles.container}>
+        <div ref={ref} className={`${styles.container} ${isVisible ? styles.show : styles.hide}`}>
             <div className={styles.containerTwo}>
                 {QUESTIONS.map((item, i) => (
                     <div key={i}>

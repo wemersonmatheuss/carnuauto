@@ -1,5 +1,7 @@
 import styles from "./styles.module.css"
 
+import { useScrollAnimation } from "../../useScrollAnimation"
+
 import { PointDestak } from "../Points/PointDestak"
 
 import licensa from "../../assets/svg/licenca.svg"
@@ -7,8 +9,10 @@ import carro from "../../assets/svg/carro-compacto.svg"
 import cifrao from "../../assets/svg/cifrao.svg"
 
 export function Destak() {
+    const { ref, isVisible } = useScrollAnimation()
     return (
-        <div className={styles.container}>
+        <div ref={ref}
+            className={`${styles.container} ${isVisible ? styles.show : styles.hide}`}>
             <PointDestak icon={licensa} headline="Ou pa konnen kijan pou ou jwenn lisans machann oswa kat vant san ou pa oblije pase anba lòt moun." paragraph="Dekouvri etap pa etap ki jan pou jwenn lisans vandè ou Ozetazini endepandamman, rapid epi san entèmedyè."/>
 
 
