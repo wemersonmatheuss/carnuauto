@@ -60,3 +60,13 @@
 	display: none;
 }
 
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding-inline: 80px;
+    }
+
+    .containerTwo {
+        width: 100%;
+    }
+}

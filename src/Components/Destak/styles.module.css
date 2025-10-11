@@ -19,3 +19,9 @@
         gap: 60px;
     }
 }
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding: 40px 80px;
+    }
+}

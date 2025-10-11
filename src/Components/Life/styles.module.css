@@ -41,3 +41,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding: 0 80px;
+    }
+
+    .title h2 {
+        font-size: 25px;
+    }
+}

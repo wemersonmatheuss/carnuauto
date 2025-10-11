@@ -34,3 +34,13 @@
 .button {
     margin-top: 60px;
 }
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding: 0 80px;
+    }
+
+    .container h2 {
+        font-size: 25px;
+    }
+}
