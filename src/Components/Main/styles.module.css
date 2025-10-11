@@ -50,7 +50,11 @@
 
 @media screen and (max-width: 885px) {
     .container {
-        background-image: url('../../assets/banner-mobile.png');
+        background-image: url('../../assets/banner-mobile840.png');
+        /* background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+
 
         align-items: center;
         justify-content: center;
@@ -59,7 +63,7 @@
     .text {
         margin: 0;
     }
-    
+
     .text h1{
         font-size: 28px;
     }
@@ -72,3 +76,4 @@
         margin-top: 60px;
     }
 }
+
