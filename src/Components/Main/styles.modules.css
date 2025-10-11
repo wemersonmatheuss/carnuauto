@@ -1,0 +1,39 @@
+.container {
+    background-image: url('../../assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+
+    color: var(--color-white);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 50%;
+
+    margin-block: auto;
+    margin-left: 15%;
+
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 22px;
+    font-weight: 500;
+
+    margin-top: 27px;
+}
+
+.text button {
+    margin-top: 67px;
+}
