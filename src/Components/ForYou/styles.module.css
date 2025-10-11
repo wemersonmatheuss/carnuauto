@@ -44,3 +44,17 @@
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .allPoints {
+        gap: 25px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+    }
+}

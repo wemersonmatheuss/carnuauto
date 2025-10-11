@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     width: 100vw;
     height: 100vh;
@@ -74,6 +75,33 @@
 
     .text button {
         margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .container {
+        background-size: contain;
+        background-position: top center;
+        height: auto;
+        overflow: hidden;
+
+        padding: 100px 30px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 23px;
+    }
+
+    .text p {
+        margin-top: 20px;
+    }
+
+    .text button {
+        margin-top: 32px;
     }
 }
 

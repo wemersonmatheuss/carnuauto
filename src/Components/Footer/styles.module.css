@@ -32,3 +32,13 @@
 .description a {
     color: var(--color-red);
 }
+
+@media screen and (max-width: 840px) {
+    .container {
+        padding: 20px;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+}

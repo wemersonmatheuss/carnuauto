@@ -79,3 +79,23 @@
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        width: 80%;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+}

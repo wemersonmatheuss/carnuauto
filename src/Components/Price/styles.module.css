@@ -84,3 +84,21 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 440px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .containerTwo {
+        width: 100%;
+    }
+
+    .price h3 {
+        font-size: 25px;
+    }
+
+    .button p {
+        font-size: 14px;
+    }
+}
