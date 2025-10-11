@@ -1,0 +1,31 @@
+.container {
+    width: 384px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    color: var(--color-white);
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.title img {
+    width: 25px;
+    height: 25px;
+}
+
+.title h2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.paragraph p {
+    font-size: 16px;
+    font-weight: 500;
+}

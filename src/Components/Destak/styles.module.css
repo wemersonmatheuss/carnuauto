@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 55px 120px;
+
+    background: var(--color-red);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
