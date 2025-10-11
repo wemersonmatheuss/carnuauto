@@ -8,14 +8,16 @@ export function useScrollAnimation() {
     const element = ref.current;
     if (!element) return;
 
+    // detecta se é mobile
+    const isMobile = window.innerWidth <= 768;
+    // se for mobile, começa a aparecer com 20%, senão 50%
+    const thresholdValue = isMobile ? 0.2 : 0.5;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // ativa quando 50% do elemento está visível
-        setIsVisible(entry.intersectionRatio > 0.5);
+        setIsVisible(entry.intersectionRatio > thresholdValue);
       },
-      {
-        threshold: [0, 0.5, 1],
-      }
+      { threshold: [0, thresholdValue, 1] }
     );
 
     observer.observe(element);
