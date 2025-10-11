@@ -80,9 +80,9 @@
 
 @media screen and (max-width: 440px) {
     .container {
-        background-size: contain;
+        background-size: 100% 100%;
         background-position: top center;
-        height: auto;
+        height: 100vh;
         overflow: hidden;
 
         padding: 100px 30px;
@@ -104,4 +104,3 @@
         margin-top: 32px;
     }
 }
-
