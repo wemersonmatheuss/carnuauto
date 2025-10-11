@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 540px) {
     .container {
         width: 100%;
     }
