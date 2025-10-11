@@ -37,3 +37,13 @@
 .text button {
     margin-top: 67px;
 }
+
+@media screen and (max-width: 1115px) {
+    .text h1 {
+        font-size: 35px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+}

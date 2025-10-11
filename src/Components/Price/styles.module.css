@@ -68,3 +68,9 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1115px) {
+    .containerTwo {
+        width: 70%;
+    }
+}

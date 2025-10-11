@@ -54,3 +54,18 @@
         width: 500px;
     }
 }
+
+@media screen and (max-width: 1115px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .image img {
+        width: 400px;
+    }
+}
