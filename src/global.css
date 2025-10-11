@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+    --gradient-red: linear-gradient(90deg, #FB3C3C 0%, #560000 100%);
+    --color-white: #E2E2E2;
+    --color-black: #151617;
+    --color-red: #EA1E1E;
+} 
