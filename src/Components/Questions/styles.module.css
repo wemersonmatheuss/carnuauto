@@ -1,6 +1,8 @@
 .container{
 	padding-inline: 120px;
 
+    margin-top: 65px;
+
     display: flex;
     flex-direction: column;
     align-items: center;

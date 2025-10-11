@@ -44,3 +44,13 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1281px) {
+    .image img {
+        width: 80%;
+    }
+    
+    .paragraph {
+        width: 500px;
+    }
+}
