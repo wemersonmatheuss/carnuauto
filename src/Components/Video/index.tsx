@@ -9,7 +9,7 @@ type Props = {
   controls?: boolean;
 };
 
-export function Videoo({
+export function Video({
   videoId = "zXvqAr-oraM",
   width = "50%",
   autoplayMuted = true,

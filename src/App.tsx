@@ -1,19 +1,21 @@
 import { Main } from "./Components/Main"
-import { Videoo } from "./Components/Video"
+import { Video } from "./Components/Video"
 import { Destak } from "./Components/Destak"
 import { Auctions } from "./Components/Auctions"
 import { ForYou } from "./Components/ForYou"
 import { Life } from "./Components/Life"
+import { AboutCarnu } from "./Components/AboutCarnu"
 
 export function App() {
   return (
     <div>
       <Main/>
-      <Videoo/>
+      <Video/>
       <Destak/>
       <Auctions/>
       <ForYou/>
       <Life/>
+      <AboutCarnu/>
     </div>
   )
 }

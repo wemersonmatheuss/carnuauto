@@ -12,3 +12,9 @@
     --color-black: #151617;
     --color-red: #EA1E1E;
 } 
+
+body, html {
+    overflow-x: hidden;
+
+    background: var(--color-black);
+}
