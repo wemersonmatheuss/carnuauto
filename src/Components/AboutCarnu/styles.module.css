@@ -45,7 +45,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1301px) {
     .image img {
         width: 450px;
     }
