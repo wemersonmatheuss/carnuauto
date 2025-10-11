@@ -7,6 +7,7 @@ import { Life } from "./Components/Life"
 import { AboutCarnu } from "./Components/AboutCarnu"
 import { Price } from "./Components/Price"
 import { AboutPerson } from "./Components/AbouPerson"
+import { Questions } from "./Components/Questions"
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
       <AboutCarnu/>
       <Price/>
       <AboutPerson/>
+      <Questions/>
     </div>
   )
 }
