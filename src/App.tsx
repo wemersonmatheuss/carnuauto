@@ -6,6 +6,7 @@ import { ForYou } from "./Components/ForYou"
 import { Life } from "./Components/Life"
 import { AboutCarnu } from "./Components/AboutCarnu"
 import { Price } from "./Components/Price"
+import { AboutPerson } from "./Components/AbouPerson"
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       <Life/>
       <AboutCarnu/>
       <Price/>
+      <AboutPerson/>
     </div>
   )
 }

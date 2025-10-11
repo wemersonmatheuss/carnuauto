@@ -23,8 +23,6 @@ export function AboutCarnu() {
                     <Button name="Mwen vle aprann avèk nou"/>
                 </div>
             </div>
-
-            
         </div>
     )
 }
