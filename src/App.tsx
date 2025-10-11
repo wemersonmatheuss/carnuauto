@@ -8,6 +8,7 @@ import { AboutCarnu } from "./Components/AboutCarnu"
 import { Price } from "./Components/Price"
 import { AboutPerson } from "./Components/AbouPerson"
 import { Questions } from "./Components/Questions"
+import { Footer } from "./Components/Footer"
 
 export function App() {
   return (
@@ -22,6 +23,7 @@ export function App() {
       <Price/>
       <AboutPerson/>
       <Questions/>
+      <Footer/>
     </div>
   )
 }
