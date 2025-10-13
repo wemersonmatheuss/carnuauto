@@ -7,9 +7,10 @@ export function Main() {
     return (
         <div className={styles.container}>
             <div className={styles.text}>
-                <h1>Vire Machin an Oportunite epi Rive nan Libète Finansye Ou</h1>
+                <h1>Aprann achte machin nan AUCTION ak pri ki pi ba pase valè yo sou 
+                    mache a, epi rive jwenn endepandans finansye ou .</h1>
 
-                <p>Aprann kijan pou achte machin nan vant piblik epi rive jwenn libète finansye, menm si w ap kòmanse depi nan zero.</p>
+                <p>menm si ou pat gen okenn eksperyans nan Achte e Vann machine Deja.</p>
 
                 <Button name="Mwen vle aprann"/>
             </div>

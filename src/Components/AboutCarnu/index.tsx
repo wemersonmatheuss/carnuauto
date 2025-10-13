@@ -20,11 +20,18 @@ export function AboutCarnu() {
                 </div>
 
                 <div className={styles.paragraph}>
-                    <p>Nou se yon gwoup envestisè ki renmen machine , epi ki remake gen yon fason pou jwenn libètefinansye nan Achte e Revann machine . Nou ini ansanm e, Depi lè sa a nou fonde CARNU AUTO ki se yonn dealer kap bay kominote a sevis pandan anpil tan , ak lide pou ede moun kiap swiv nou yo jwenn libète finansye yo toujou reve a atravè revann machin,WOODDJERY, ki responsab pou jesyon konpayi an nan peyi Etazini, te dirije pwojè a epikòmanse anseye sou pati teknik pou achte ak chwazi pi bon machin yo, konsa moun kareyalize pwofi gras ak patenarya ak inyon avèk òganizasyon biznis nou an.</p>
+                    <p>Nou se yon gwoup envestisè ki renmen machine , epi ki remake gen yon fason pou 
+                    jwenn libète finansye nan Achte e Revann machine . Nou ini ansanm e, Depi lè sa a 
+                    nou fonde CARNU AUTO ki se yonn dealer kap bay kominote a sevis pandan anpil tan , 
+                    ak lide pou ede moun ki ap swiv nou yo jwenn libète finansye yo toujou reve a atravè 
+                    revann machin, WOODDJERY, ki responsab pou jesyon konpayi an nan peyi Etazini, te 
+                    dirije pwojè a epi kòmanse anseye sou pati teknik pou achte ak chwazi pi bon machin 
+                    yo, konsa moun ka reyalize pwofi gras ak patenarya ak inyon avèk òganizasyon biznis 
+                    nou an. </p>
                 </div>
 
                 <div className={styles.button}>
-                    <Button name="Mwen vle aprann avèk nou"/>
+                    <Button name="Mwen vle aprann avek nou"/>
                 </div>
             </div>
         </div>

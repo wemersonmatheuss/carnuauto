@@ -10,7 +10,7 @@ type Props = {
 };
 
 export function Video({
-  videoId = "zXvqAr-oraM",
+  videoId = "LAlOCf7089c",
   width = "50%",
   autoplayMuted = true,
   controls = true,

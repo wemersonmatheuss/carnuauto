@@ -14,13 +14,9 @@ export function Price() {
         <div ref={ref} className={`${styles.container} ${isVisible ? styles.show : styles.hide}`}>
             <div className={styles.containerTwo}>
                 <div className={styles.points}>
-                    <PointPrice icon={verify} description="Kou Konplè Machin Carnu INC"/>
                     <PointPrice icon={verify} description="Kijan pou chwazi pi bon machin yo"/>
-                    <PointPrice icon={verify} description="Kijan pou achte machin nan vann piblik Copart"/>
-                    <PointPrice icon={verify} description="Kijan pou achte machin nan vann piblik IAAI"/>
-                    <PointPrice icon={verify} description="Kijan pou achte machin nan vann piblik Manheim"/>
-                    <PointPrice icon={verify} description="Kijan pou achte machin nan vann piblik Adesa"/>
-                    <PointPrice icon={verify} description="Kijan pou jwenn lisans lan"/>
+                    <PointPrice icon={verify} description="Kijan pou achte machin nan Auction  : Copart , IAAI , Manheim, Adesa"/>
+                    <PointPrice icon={verify} description="Kijan pou jwenn lisans Dealer ou"/>
                     <PointPrice icon={verify} description="Bonis: Zouti pou rechèch machin yo pral achte"/>
                     <PointPrice icon={verify} description="Bonis: Pi bon kote pou achte pyès ki abòdab"/>
                 </div>
@@ -34,7 +30,7 @@ export function Price() {
                 <div className={styles.button}>
                     <Button name="Achte kounye a"/>
 
-                    <p>PEMAN 100% SÈN</p>
+                    <p>Peyman  100% Sekirise</p>
                 </div>
             </div>
             

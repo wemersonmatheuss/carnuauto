@@ -7,19 +7,19 @@ import JogarIcon from "../../assets/svg/jogar.svg"
 
 const QUESTIONS = [
     {
-        q: "Pour qui est le cours ?",
+        q: "Pour kiyes kou a ye?",
         a: "Pou tout moun ki vle aprann achte machin Ozetazini epi jwenn libète finansye!"
     },
     {
-        q: "Ai-je besoin d'expérience pour comprendre le cours ?",
-        a: "Non ! Nous vous montrons toutes les étapes, du débutant à l'avancé."
+        q: "Eske mwen bezwen eskperyans?",
+        a: "Non! Nou montre w tout etap yo depi nan zewo."
     },
     {
         q: "Èske mwen bezwen pale angle pou m ka achte machin?",
         a: "Pa gen pwoblèm! Kou a fèt nan lang Kreyol pou ou kapab konprann san pwoblèm."
     },
     {
-        q: "Èske m ap aprann fè tout pwosesis la pou kont mwen oswa èske mwen bezwen entémedyè?",
+        q: "Èske m ap aprann fè tout pwosesis la pou kont mwen oswa èske mwen bezwen entémedyè? ",
         a: "Wi, nou montre w fason pouw jere biznis ou pou kont ou . oswa w ka itilize entèmedyè si ou vle."
     },
     {

@@ -16,11 +16,19 @@ export function AboutPerson() {
                 </div>
 
                 <div className={styles.paragraph}>
-                    <p>Menm jan ak anpil moun ki rive Ozetazini, mwen te toujou reve pou gen pwòp machin mwen, men byento mwen reyalize ke achte li an lajan kach te difisil e li koute chè. Lè sa a, mwen dekouvri yon fason inovatè pou achte machin nan vant piblik. Avèk tan, mwen te kòmanse fouye nan aspè teknik sou kijan pou chwazi pi bon machin yo, idantifye opòtinite reyèl pou pwofi, epi evite erè ki fè anpil moun pèdi lajan. Kounye a, mwen ap rasanble tout konesans sa a nan yon kou 100% sou entènèt, avèk videyo pratik, kote mwen anseye etap pa etap kijan pou patisipe nan vant piblik Ozetazini epi achte machin ou pou yon pri ki anpil pi ba pase pri nan mache a - swa pou itilizasyon pèsonèl oswa pou revann avèk pwofi.</p>
+                    <p>Menm jan ak anpil moun ki rive Ozetazini, mwen te toujou reve pou gen pwòp machin 
+                    mwen, men byento mwen reyalize ke achte li an lajan kach te difisil e li koute chè. Lè sa 
+                    a, mwen dekouvri yon fason inovatè pou achte machin nan auction. Avèk tan, mwen te 
+                    kòmanse fouye nan aspè teknik sou kijan pou chwazi pi bon machin yo, idantifye 
+                    opòtinite reyèl pou pwofi, epi evite erè ki fè anpil moun pèdi lajan. Kounye a, mwen ap 
+                    rasanble tout konesans sa a nan yon kou 100% sou entènèt, avèk videyo pratik, kote 
+                    mwen anseye etap pa etap kijan pou patisipe nan vant piblik Ozetazini epi achte machin 
+                    ou pou yon pri pi ba pase pri nan mache a - swa pou itilizasyon pèsonèl oswa pou 
+                    revann avèk pwofi.</p>
                 </div>
 
                 <div className={styles.button}>
-                    <Button name="Aprann avèk mwen"/>
+                    <Button name="Aprann avek mwen"/>
                 </div>
             </div>
 
