@@ -1,5 +1,4 @@
 import { Main } from "./Components/Main"
-import { Video } from "./Components/Video"
 import { Destak } from "./Components/Destak"
 import { Auctions } from "./Components/Auctions"
 import { Life } from "./Components/Life"
@@ -13,7 +12,6 @@ export function App() {
   return (
     <div>
       <Main/>
-      <Video/>
       <Destak/>
       <Auctions/>
       <Life/>
