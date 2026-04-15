@@ -1,73 +1,91 @@
-# React + TypeScript + Vite
+# 🚗 Car Auction Course — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como um trabalho freelancer para um cliente internacional, com o objetivo de criar uma landing page para venda de um curso sobre como comprar carros em leilão.
 
-Currently, two official plugins are available:
+O foco foi construir uma página moderna, persuasiva e otimizada para conversão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Objetivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Criar uma landing page focada em conversão, apresentando o curso de forma clara, atrativa e direcionando o usuário para a ação de compra.
 
-## Expanding the ESLint configuration
+O projeto teve como foco:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Apresentar o curso de forma estratégica
+* Destacar benefícios e oportunidades do conteúdo
+* Criar uma navegação simples e direta
+* Otimizar a experiência do usuário
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧠 O que foi aplicado neste projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Desenvolvimento com **React**
+* Estruturação de layout focada em **conversão**
+* Organização de seções estratégicas (headline, benefícios, CTA)
+* Estilização com **CSS**
+* Aplicação de boas práticas de UI/UX
+* Construção de interface moderna e responsiva
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tecnologias Utilizadas
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **React** – construção da interface
+* **CSS3** – estilização da aplicação
+
+---
+
+## 🌍 Contexto do projeto
+
+Este projeto foi desenvolvido para um cliente fora do Brasil, reforçando a experiência com projetos internacionais e adaptação a diferentes demandas de mercado.
+
+---
+
+## 🖥️ Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/wemersonmatheuss/carnuauto.git
+   ```
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd carnuauto
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Execute o projeto:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse no navegador:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 💬 Considerações finais
+
+Este projeto demonstra a aplicação prática de desenvolvimento front-end voltado para negócios, com foco em criação de páginas que geram resultado.
+
+A construção de landing pages eficientes é uma habilidade essencial para projetos freelance e soluções digitais.
+
+---
+
+## 👨‍💻 Autor
+
+Wemerson Matheus
+Desenvolvedor Front-end & Freelancer
